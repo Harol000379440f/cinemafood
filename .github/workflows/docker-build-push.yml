@@ -6,7 +6,7 @@ on: #Evento
       - main
 
 jobs: 
-  build-and-push: #Name Runner 
+  build-and-push: #Name Runner first
     runs-on: ubuntu-latest
     steps:      #Step inicial
       - name: Checkout Code
